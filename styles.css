@@ -1,1 +1,71 @@
 /*  your css code here. If applicable */
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+.row1{
+	gap: 60px
+}
+.row3{
+	gap: 20px
+}
+
+.dsa {
+ background-color: maroon;
+  width: 50%;
+  height: 40px;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+line-height: 75px;
+	color: white;
+	
+}
+
+.mern {
+  background-color: orange;
+  width: 30%;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+	color: white;
+}
+
+.acciojob {
+  background-color: cornflowerblue;
+  width: 75%;
+  height: 75px;
+  text-align: center;
+	color: white;
+  line-height: 75px;
+	margin-left: 40px;
+}
+
+.business-analytics {
+  background-color: teal;
+  width: 40%;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+	color: white;
+}
+
+.spring {
+  background-color: crimson;
+  height: 100px;
+	display: flex;
+	align-items: center;
+  line-height: 75px;
+	padding-inline:100px;
+	color: white;
+}
